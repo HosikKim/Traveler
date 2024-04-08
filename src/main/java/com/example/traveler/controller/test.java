@@ -1,13 +1,15 @@
 package com.example.traveler.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class test {
 
-    @GetMapping("/test")
+    @RequestMapping("/")
     public String test(){
-        return "Hello World";
+        return "main";
     }
 }
