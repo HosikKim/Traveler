@@ -11,7 +11,7 @@
 </script>
 <%-- 날씨 위젯 --%>
 <script>
-    var apiURI = "http://api.openweathermap.org/data/2.5/weather?q=Seoul,kr&appid=876eb9965cb5694a2644df701fa197dd";
+    var apiURI = "http://api.openweathermap.org/data/2.5/weather?q=Jeju,kr&appid=876eb9965cb5694a2644df701fa197dd";
     $j1124.ajax({
         url: apiURI,
         dataType: "json",
@@ -55,7 +55,7 @@
     <!--날씨-->
     <div id="headerM-weatherBox">
         <div id="headerM-weatherBox__area">
-            <h4>Seoul,KR</h4>
+            <h4>Jeju,KR</h4>
         </div>
         <div id="headerM-weatherBox__icon">
             <img id="weatherImg">
