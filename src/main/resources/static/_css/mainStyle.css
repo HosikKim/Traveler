@@ -348,8 +348,8 @@
 /**header**/
 #header_container {
     width: 100%;
-    height: 145px;
-    background-color: #5882FA;
+    height: 130px;
+    background-color: #FFBD59;
     font-size: 15px;
     position: relative;
     text-align: center;
@@ -379,7 +379,7 @@
     font-size: 35px;
     margin: 0 auto;
     padding-top: 17px;
-    border: 1px solid #5882FA;
+    border: 1px solid #FFA500;
     /*border: 1px solid black;*/
 }
 
@@ -781,8 +781,8 @@
 }
 
 #map {
-    width: 700px;
-    height: 500px;
+    width: 300px;
+    height: 175px;
     margin: 0 auto;
     border: 1px solid #CDCECF;
 }
@@ -2785,8 +2785,13 @@ table {
 }
 
 /*plan - planDetail */
-.planL-navbox__li--big, .planL-titlebox--span__big {
+.planL-navbox__li--big{
     font-family: 'Jua', sans-serif;
+
+}
+.planL-titlebox{
+    background-color:#FFA500;
+    color:white;
 }
 
 .planL-header {
@@ -2805,7 +2810,7 @@ table {
     height: 530px;
     display: inline-block;
     margin: 70px auto;
-    background-color: #5882fa;
+    background-color: #FFA500;
 }
 
 .planL-navbox__ul--blue {
@@ -2848,6 +2853,7 @@ table {
     float: right;
     width: 1000px;
     margin: 70px 10px 70px 0px;
+    color:white;
 }
 
 .planL-titlebox {
@@ -2863,6 +2869,7 @@ table {
     font-weight: bold;
     display: inline-block;
     margin: 23px 10px 0 26px;
+    color:white;
 }
 
 .planL-titlebox--button__blue {
@@ -2951,7 +2958,7 @@ table {
     position: absolute;
     top: 37px;
     right: 20px;
-    background-color: #49b2e9;
+    background-color: #FFA500;
     color: white;
     border: none;
     border-radius: 7px;

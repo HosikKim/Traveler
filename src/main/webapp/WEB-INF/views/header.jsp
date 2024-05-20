@@ -74,7 +74,7 @@
 <div id="header_container">
     <!--로고1-->
     <div id="header-img__logo1">
-        <img src="${pageContext.request.contextPath}/_image/header/logo/001-4.png" width="145px" height="130px" alt="logo">
+        <img src="${pageContext.request.contextPath}/_image/logo/logo1.png" width="145px" height="145px" alt="logo">
     </div>
 
     <!--로고2-->
